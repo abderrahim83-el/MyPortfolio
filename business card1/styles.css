@@ -1,0 +1,36 @@
+body {
+    margin: 20px;
+}
+
+.avatar {
+    width: 150px;
+}
+
+.card {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color:#2b2839;
+    background-color: #ddebf8;
+    border-bottom:#d8cefe  solid 4px;
+    border-right: #2b2839 solid 4px;
+    border-left: #2b2839 solid 4px;
+    border-top: #d8cefe solid 4px;
+    
+    /* 
+    Challenge:
+    Add colors to the card according to the design.
+    black - #2b2839 (the text color)
+    blue - #ddebf8
+    purple - #d8cefe
+    */
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
+    
