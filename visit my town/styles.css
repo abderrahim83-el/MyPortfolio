@@ -21,7 +21,7 @@ img {
 #hero {
     background-color: #93ce07;
     padding: 400px 30px;
-    background-image: url("images/harhoura.jpg");
+    background-image: url("/Resources/harhoura.jpg");
     background-size: cover;
     margin-bottom: 0px;
 
@@ -54,7 +54,7 @@ img {
 
     padding: 10px;
 
-  background-image: url("images/galaxy.webp");
+  background-image: url("/Resources/galaxy.webp");
     background-size: cover;
 
 
