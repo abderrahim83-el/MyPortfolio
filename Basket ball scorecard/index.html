@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<div class="scorecard">
+    <div class="home">
+        <h1>HOME</h1>
+        <h2 class="home-score-numb" id="home-sc-num">0</h2>
+        <button class="home-click-but" onclick="increment1()"><span>+1</span></button>
+        <button class="home-click-but" onclick="increment2()"><span>+2</span></button>
+        <button class="home-click-but" onclick="increment3()"><span>+3</span></button>
+
+    </div>
+    <div class="guest">
+        <h1>AWAY</h1>
+        <h2 class="guest-score-numb" id="guest-sc-num">0</h2>
+        <button class="guest-click-but" onclick="increment4()"><span>+1</span></button>
+        <button class="guest-click-but" onclick="increment5()"><span>+2</span></button>
+        <button class="guest-click-but" onclick="increment6()"><span>+3</span></button>
+    </div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
